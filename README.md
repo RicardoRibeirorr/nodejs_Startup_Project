@@ -57,7 +57,7 @@ Download the folder or git clone the project.
 - Clone the repo
 
   ```sh
-  git clone xxxxxxxxxxxxxxxx
+  git clone https://github.com/RicardoRibeirorr/nodejs_Startup_Project.git
   ```
 
 - Update npm
