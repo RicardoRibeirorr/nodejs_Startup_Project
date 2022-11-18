@@ -211,9 +211,9 @@ Project Link: [https://www.linkedin.com/in/ricardo-ribeiro-5a788712b/](https://w
 [nodejs-url]: https://nodejs.org/
 [expressjs-url]: https://expressjs.com/
 [sequelize-url]: https://sequelize.org/
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/RicardoRibeirorr/nodejs_Startup_Project.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/RicardoRibeirorr/nodejs_Startup_Project.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/RicardoRibeirorr/nodejs_Startup_Project.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/RicardoRibeirorr/nodejs_Startup_Project.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/RicardoRibeirorr/nodejs_Startup_Project.svg?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
