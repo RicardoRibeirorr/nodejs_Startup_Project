@@ -35,12 +35,12 @@
 
 ## About The Project
 
-I've came from a Laravel background, here everything is easy to do and to understand. But i've came to a point where i needed to create a backend Node.js server that includes user authentification and some other stuff, and i could never figure out how to get started, what framework to use and how it works!
+I've come from a Laravel background, here everything is easy to do and to understand. But I've come to a point where I needed to create a backend Node.js server that includes user authentication and some other stuff, and I could never figure out how to get started, what framework to use and how it works!
 
-If you're filling like me or just want to get started easy with you project, then you're in the right place.
-With this startup-project, you have a ready-to-go project that includes users, authentification (login; register; token generation and management), and even posts to make you started on relationships and the systems architecture.
+If you're filling like me or just want to get started easy with your project, then you're in the right place.
+With this startup-project, you have a ready-to-go project that includes users, authentication (login; register; token generation and management), and even posts to make you started on relationships and the systems' architecture.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more stuff in the "examples" folder in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+Of course, no one template will serve all projects, since your needs may be different. So I'll be adding more stuff in the "examples" folder in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
 Thanks to all the people have contributed to expanding this template!
 
@@ -81,8 +81,6 @@ Download the folder or git clone the project.
   - Xampp
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Install NPM packages
    ```sh
@@ -128,7 +126,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ## Usage
 
-Wheres what you need to know about MVC and how to use this projects.
+Where's what you need to know about MVC and how to use this project.
 This area is divided in steps that you should perform in this order as best-practices.
 
 1. Migrations `app/database/migrations`
@@ -142,10 +140,10 @@ This area is divided in steps that you should perform in this order as best-prac
    Or you can use it to store testing data while you're working in development mode, and avoid creating the same user over and over again... just an example!(<a href="https://sequelize.org/docs/v6/core-concepts/model-instances/">Check more in Sequelize docs</a>)
 
 4. Controllers `app/controllers`
-   Controllers it's where you perform the logic of your requests using your models data. Meaning, if you make a request to you server to create a post, it's in your `post.controller.js` that all the logic will be created, and this includes verifying if your logged in, if you have permission to create a post, it's the length of data passed right, are the type of data right.(<a href="https://expressjs.com/en/guide/routing.html")
+   Controllers it's where you perform the logic of your requests using your models data. Meaning, if you make a request to your server to create a post, it's in your `post.controller.js` that all the logic will be created, and this includes verifying if you're logged in, if you have permission to create a post, it's the length of data passed right, are the type of data right.(<a href="https://expressjs.com/en/guide/routing.html")
 
 5. Routes `app/routes`
-   Routes are the links of your application. There are a veryaty of methods you can use (GET;POST;DELETE;...) . This is where you call your controllers to create the data to retreave or use the data you're getting. (<a href="">Check more in ExpressJS docs</a>)
+   Routes are the links of your application. There are a verity of methods you can use (GET;POST;DELETE;...) . This is where you call your controllers to create the data to retrieve or use the data you're getting. (<a href="">Check more in ExpressJS docs</a>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,7 +193,7 @@ Project Link: [https://www.linkedin.com/in/ricardo-ribeiro-5a788712b/](https://w
 
 ## Acknowledgments
 
-- [Licence](https://github.com/RicardoRibeirorr/nodejs_Startup_Project/LICENSE.txt)
+- [Licence](https://github.com/RicardoRibeirorr/nodejs_Startup_Project/licence.txt)
 - [GitHub Pages](https://pages.github.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -207,7 +205,7 @@ Project Link: [https://www.linkedin.com/in/ricardo-ribeiro-5a788712b/](https://w
 [forks-url]: https://github.com/RicardoRibeirorr/nodejs_Startup_Project/network/members
 [stars-url]: https://github.com/RicardoRibeirorr/nodejs_Startup_Project/stargazers
 [issues-url]: https://github.com/RicardoRibeirorr/nodejs_Startup_Project/issues
-[license-url]: https://github.com/RicardoRibeirorr/nodejs_Startup_Project/LICENSE.txt
+[license-url]: https://github.com/RicardoRibeirorr/nodejs_Startup_Project/licence.txt
 [linkedin-url]: https://www.linkedin.com/in/ricardo-ribeiro-5a788712b/
 [nodejs-url]: https://nodejs.org/
 [expressjs-url]: https://expressjs.com/
@@ -216,5 +214,5 @@ Project Link: [https://www.linkedin.com/in/ricardo-ribeiro-5a788712b/](https://w
 [forks-shield]: https://img.shields.io/github/forks/RicardoRibeirorr/nodejs_Startup_Project.svg?style=for-the-badge
 [stars-shield]: https://img.shields.io/github/stars/RicardoRibeirorr/nodejs_Startup_Project.svg?style=for-the-badge
 [issues-shield]: https://img.shields.io/github/issues/RicardoRibeirorr/nodejs_Startup_Project.svg?style=for-the-badge
-[license-shield]: https://img.shields.io/github/license/RicardoRibeirorr/nodejs_Startup_Project.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/badge/Licence-MIT-green
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
