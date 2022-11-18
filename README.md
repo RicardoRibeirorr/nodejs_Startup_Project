@@ -48,16 +48,6 @@ Use the `Node.js MVC - Startup Project` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-- [![Nodejs][https://nodejs.org/]][nodejs-url]
-- [![Expressjs][https://expressjs.com/]][expressjs-url]
-- [![Sequelize][https://sequelize.org/]][sequelize-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -151,7 +141,7 @@ This area is divided in steps that you should perform in this order as best-prac
 
 - [x] Include Posts
 - [x] Include Roles
-- [x] Add features for roles (posts disabled by admin/moderator)
+- [ ] Add features for roles (posts disabled by admin/moderator)
 - [ ] Include commands for testing connection
 - [ ] Add Additional Templates w/ Examples
 - [ ] Include storage features
