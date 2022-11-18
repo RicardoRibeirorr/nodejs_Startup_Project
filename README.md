@@ -150,10 +150,15 @@ This area is divided in steps that you should perform in this order as best-prac
 ## Roadmap
 
 - [x] Include Posts
-- [ ] Include Roles
+- [x] Include Roles
+- [x] Add features for roles (posts disabled by admin/moderator)
+- [ ] Include commands for testing connection
 - [ ] Add Additional Templates w/ Examples
 - [ ] Include storage features
-- [ ] Include mysqlite in project folder (like Laravel)
+- [ ] Include mysqlite in project folder without the need of extensive .env configuration (like Laravel)
+- [ ] Convert project into package
+- [ ] Include commands to create models, controllers, seeds and migrations
+- [ ] Include commands to include features (auth;roles;posts;etc) into project
 - [ ] Review dependencies
 
 See the [open issues](https://github.com/RicardoRibeirorr/nodejs_Startup_Project/issues) for a full list of proposed features (and known issues).
