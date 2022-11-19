@@ -94,6 +94,7 @@ Download the folder or git clone the project.
     DB_USERNAME=admin                #(Required) local server (xampp, wampp, ...)
     DB_PASSWORD=admin                #(Required) local server (xampp, wampp, ...)
    ```
+   Note: You can generate your APP_KEY using (<a href="https://ricardoribeirorr.github.io/projects/generate_app_key/">Generate APP_KEY</a>)
 
 4. Seed your project (i.e. create initial data) you can add your own next to the existing ones in `app/database/seeders`
 
