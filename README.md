@@ -94,6 +94,7 @@ Download the folder or git clone the project.
     DB_USERNAME=admin                #(Required) local server (xampp, wampp, ...)
     DB_PASSWORD=admin                #(Required) local server (xampp, wampp, ...)
    ```
+
    Note: You can generate your APP_KEY using (<a href="https://ricardoribeirorr.github.io/projects/generate_app_key/">Generate APP_KEY</a>)
 
 4. Seed your project (i.e. create initial data) you can add your own next to the existing ones in `app/database/seeders`
@@ -140,11 +141,40 @@ This area is divided in steps that you should perform in this order as best-prac
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Test Cases
+
+### User
+
+#### Register users with `/signup` API:
+
+- admin with admin role
+- mod with moderator and user roles
+- zkoder with user role
+  ![Register some users ](https://www.bezkoder.com/wp-content/uploads/2020/01/node-js-jwt-authentication-mysql-signup-new-user.png)
+
+#### Login an account: POST `/api/auth/signin`
+
+![Login an account](https://www.bezkoder.com/wp-content/uploads/2020/01/node-js-jwt-authentication-mysql-user-signin.png)
+
+#### Login an account (with wrong password): POST `/api/auth/signin`
+
+![Login an account (with wrong password)](https://www.bezkoder.com/wp-content/uploads/2020/01/node-js-jwt-authentication-mysql-user-signin-wrong-password.png)
+
+### Access resources
+
+#### Access public resource: GET `/api/test/all`
+
+![Access public resource](https://www.bezkoder.com/wp-content/uploads/2020/01/node-js-jwt-authentication-mysql-get-public-content.png)
+
+#### Access protected resource: GET `/api/test/user`
+
+Ex.changing posts of other users it's a protected resource
+![Access protected resource](https://www.bezkoder.com/wp-content/uploads/2020/01/node-js-jwt-authentication-mysql-get-authorized-content.png)
+
 ## Roadmap
 
-- [x] Include Posts
 - [x] Include Roles
-- [ ] Add features for roles (posts disabled by admin/moderator)
+- [-] Include Posts
 - [ ] Include commands for testing connection
 - [ ] Add Additional Templates w/ Examples
 - [ ] Include storage features
