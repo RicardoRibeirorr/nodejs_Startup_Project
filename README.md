@@ -35,6 +35,8 @@
 
 ## About The Project
 
+![image of the nodejs - startup project logo](https://ricardoribeirorr.github.io/assets/images/projects/nodejs_statup_project.png)
+
 I've come from a Laravel background, here everything is easy to do and to understand. But I've come to a point where I needed to create a backend Node.js server that includes user authentication and some other stuff, and I could never figure out how to get started, what framework to use and how it works!
 
 If you're filling like me or just want to get started easy with your project, then you're in the right place.
@@ -78,19 +80,19 @@ Download the folder or git clone the project.
    ```
 2. Create a database on your local server (Xampp, Wammp, ...)
 
-3. Rename your ".env_example" file in your project root folder to ".env", and fill the necessary configurations:
+3. Update `.env` file. If you don't fine one, rename your ".env_example" file in your project root folder to ".env", and fill the required configurations with yours:
 
    ```conf
     # Application
     APP_KEY=                         #(Required) Visit: https://ricardoribeirorr.github.io/app_key_generator
 
     # Database
-    DB_CONNECTION=mysql              #(Required) local server (xammp, wampp, ...)
-    DB_HOST=localhost                #(Required) local server (xammp, wampp, ...)
-    DB_PORT=3308                     #(Required) local server (xammp, wampp, ...)
-    DB_DATABASE=my_database          #(Required) local server (xammp, wampp, ...)
-    DB_USERNAME=admin                #(Required) local server (xammp, wampp, ...)
-    DB_PASSWORD=admin                #(Required) local server (xammp, wampp, ...)
+    DB_CONNECTION=mysql              #(Required) local server (xampp, wampp, ...)
+    DB_HOST=localhost                #(Required) local server (xampp, wampp, ...)
+    DB_PORT=3308                     #(Required) local server (xampp, wampp, ...)
+    DB_DATABASE=my_database          #(Required) local server (xampp, wampp, ...)
+    DB_USERNAME=admin                #(Required) local server (xampp, wampp, ...)
+    DB_PASSWORD=admin                #(Required) local server (xampp, wampp, ...)
    ```
 
 4. Seed your project (i.e. create initial data) you can add your own next to the existing ones in `app/database/seeders`
